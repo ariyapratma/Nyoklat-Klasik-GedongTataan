@@ -1,0 +1,210 @@
+// Variabel warna
+$white-color: #ffffff;
+$dark-color: #3f2f30;
+$black-color: #1c0b0b;
+$gray-color: #6c757d;
+$light-bg-color: #f8f1e7;
+
+// Gaya body
+body {
+  background-color: $light-bg-color;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #333;
+}
+
+// Gaya card
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    transition: transform 0.3s;
+  }
+
+  &:hover img {
+    transform: scale(1.1);
+  }
+
+//   .card-img-top {
+//     border-radius: 20px 20px 0 0;
+//     object-fit: cover;
+//     height: 200px;
+//   }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .card-text {
+    font-size: 16px;
+    color: $gray-color;
+  }
+}
+
+// Gaya tombol
+.btn-dark {
+  background-color: $dark-color;
+  color: $white-color;
+  border: none;
+}
+
+.btn-submit,
+.btn-kembali {
+  border-radius: 20px;
+  background-color: #FF5733;
+  color: $white-color;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #E74C3C;
+  }
+}
+
+.btn-kembali {
+  width: 200px;
+  margin: 30px auto;
+  font-size: 18px;
+}
+
+// Gaya navbar
+.navbar {
+  background-color: $white-color; 
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: $black-color;
+  }
+}
+
+/* Gaya dropdown item aktif */
+.navbar .nav-item.dropdown.active > a.nav-link,
+.navbar .nav-item.dropdown.active > a.nav-link:hover,
+.navbar .nav-item.dropdown.active > a.nav-link:focus {
+    background-color: $light-bg-color; /* Warna latar belakang item dropdown aktif */
+    color: $white-color; /* Warna teks item dropdown aktif */
+    border-radius: 10px; /* Ujung item dropdown yang dibulatkan */
+    padding: 0.5rem 1rem; /* Padding item dropdown aktif */
+    margin-right: 10px; /* Jarak antara dropdown aktif dan input pencarian */
+}
+
+/* Gaya dropdown item aktif */
+.navbar .nav-item.dropdown.active > .dropdown-menu > .dropdown-item.active,
+.navbar .nav-item.dropdown.active > .dropdown-menu > .dropdown-item:active {
+    background-color: #f8f1e7; /* Warna latar belakang item dropdown aktif */
+    color: #ffffff; /* Warna teks item dropdown aktif */
+    border-radius: 10px; /* Ujung item dropdown yang dibulatkan */
+    padding: 0.5rem 1rem; /* Padding item dropdown aktif */
+}
+
+
+/* Gaya Search Produk */
+#searchInput {
+    margin-right: 10px; /* Jarak kanan antara input dan tombol */
+}
+
+#searchButton {
+    margin-left: 10px; /* Jarak kiri antara input dan tombol */
+}
+
+#searchButton {
+    border-radius: 10px; /* Memastikan sudut tombol seragam dengan input */
+    color: #3f2f30; /* Warna teks tombol */
+    background-color: #f8f1e7; /* Warna latar belakang tombol */
+}
+
+#searchButton:hover {
+    background-color: #6c757d; /* Warna latar belakang tombol saat dihover */
+    color: #ffffff; /* Warna teks tombol saat dihover */
+}
+
+// Gaya Simpan Produk 
+.tag-margin {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.icon-text-margin {
+    margin-left: 5px; /* Adjust the margin as needed */
+}
+
+
+// Gaya footer
+.footer {
+  background-color: #29181a;
+  color: $white-color;
+}
+
+// Gaya konten
+.content {
+  background-color: $light-bg-color;
+}
+
+// Gaya kotak konten
+.content-box {
+  border: 1px solid $light-bg-color;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+// Gaya testimonial
+.testimonial-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+// Gaya separator
+.separator-line {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+// Gaya dropdown item
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: $light-bg-color;
+}
+
+// Gaya teks paragraf
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+// Gaya gambar kustom
+.custom-img {
+  display: block; 
+  margin: 0 auto; 
+}
+
+// Gaya teks tebal
+.tebal {
+  border: 1px solid $gray-color;
+}

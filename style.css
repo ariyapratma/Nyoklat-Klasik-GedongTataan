@@ -1,0 +1,177 @@
+body {
+  background-color: #f8f1e7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #333;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  transition: transform 0.3s;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+.card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.card .card-text {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.btn-dark {
+  background-color: #3f2f30;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-submit,
+.btn-kembali {
+  border-radius: 20px;
+  background-color: #FF5733;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-submit:hover,
+.btn-kembali:hover {
+  background-color: #E74C3C;
+}
+
+.btn-kembali {
+  width: 200px;
+  margin: 30px auto;
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #1c0b0b;
+}
+
+/* Gaya dropdown item aktif */
+.navbar .nav-item.dropdown.active > a.nav-link,
+.navbar .nav-item.dropdown.active > a.nav-link:hover,
+.navbar .nav-item.dropdown.active > a.nav-link:focus {
+  background-color: #f8f1e7; /* Warna latar belakang item dropdown aktif */
+  color: #ffffff; /* Warna teks item dropdown aktif */
+  border-radius: 10px; /* Ujung item dropdown yang dibulatkan */
+  padding: 0.5rem 1rem; /* Padding item dropdown aktif */
+  margin-right: 10px; /* Jarak antara dropdown aktif dan input pencarian */
+}
+
+/* Gaya dropdown item aktif */
+.navbar .nav-item.dropdown.active > .dropdown-menu > .dropdown-item.active,
+.navbar .nav-item.dropdown.active > .dropdown-menu > .dropdown-item:active {
+  background-color: #f8f1e7; /* Warna latar belakang item dropdown aktif */
+  color: #ffffff; /* Warna teks item dropdown aktif */
+  border-radius: 10px; /* Ujung item dropdown yang dibulatkan */
+  padding: 0.5rem 1rem; /* Padding item dropdown aktif */
+}
+
+/* Gaya Search Produk */
+#searchInput {
+  margin-right: 10px; /* Jarak kanan antara input dan tombol */
+}
+
+#searchButton {
+  margin-left: 10px; /* Jarak kiri antara input dan tombol */
+}
+
+#searchButton {
+  border-radius: 10px; /* Memastikan sudut tombol seragam dengan input */
+  color: #3f2f30; /* Warna teks tombol */
+  background-color: #f8f1e7; /* Warna latar belakang tombol */
+}
+
+#searchButton:hover {
+  background-color: #6c757d; /* Warna latar belakang tombol saat dihover */
+  color: #ffffff; /* Warna teks tombol saat dihover */
+}
+
+.tag-margin {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.icon-text-margin {
+  margin-left: 5px; /* Adjust the margin as needed */
+}
+
+.footer {
+  background-color: #29181a;
+  color: #ffffff;
+}
+
+.content {
+  background-color: #f8f1e7;
+}
+
+.content-box {
+  border: 1px solid #f8f1e7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.separator-line {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #f8f1e7;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.custom-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.tebal {
+  border: 1px solid #6c757d;
+}
+
+/*# sourceMappingURL=style.css.map */

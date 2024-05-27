@@ -1,0 +1,101 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  transition: transform 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #212529;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-dark {
+  background-color: #492f10;
+  color: #f8f9fa;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #664210;
+}
+
+.navbar {
+  background-color: #f7f6f3; /* Warna cokelat 492F10 */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #1c0b0b; /* Warna tulisan putih */
+}
+
+.imglogo {
+  margin-left: 10px;
+}
+
+.shop {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.separator-line {
+  border-top: 1px solid #ccc; /* Warna dan ketebalan garis */
+  margin-top: 30px; /* Jarak dari atas */
+  margin-bottom: 20px; /* Jarak dari bawah */
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #dfc5a6; /* Ganti dengan warna abu yang diinginkan */
+}
+.content-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.custom-img {
+  display: block; 
+  margin: 0 auto; 
+}
+.testimonial-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.footer {
+  background-color: #251809;
+}

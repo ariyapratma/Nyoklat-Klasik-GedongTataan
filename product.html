@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="icon" href="images/Icon Es Nyoklat.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .card {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logocoklat.png" alt="logo" width="100px" height="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Belanja
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="product-modal.html">Produk</a></li>
+                            <li><a class="dropdown-item" href="#">Keranjang</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <a href="index.html" class="btn btn-warning d-block mx-auto mb-4">Kembali</a>
+        <h3 class="text-center mb-4">Daftar Produk</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Product Cards -->
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/Ice Choco Cola.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">ICE CHOCO COLA</h5>
+                        <p class="card-text text-center">Es Kopi Dengan Rasa Cokelat Coca Cola</p>
+                        <div class="text-center">
+                            <button class="btn btn-warning mx-2">Detail Produk</button>
+                            <button class="btn btn-dark mx-2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more product cards here -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h5 class="mb-4 font-weight-bold text-warning">Nyoklat Klasik A16</h5>
+                    <p class="mb-4">
+                        <i class="fas fa-map-marker-alt me-3"></i>Sukaraja, Kec. Gedong Tataan, Kabupaten Pesawaran, Lampung
+                        35371
+                    </p>
+                    <!-- Google Maps Embed -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.2428898027397!2d105.10457747408489!3d-5.379892653800706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d302f853d1d7%3A0x682bff5445ee6cbf!2sNyoklat%20klasik%20A16%20gedongtataan!5e0!3m2!1sid!2sid!4v1710922126526!5m2!1sid!2sid"
+                        width="240" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <!-- Add more footer content here -->
+            </div>
+            <!-- Copyright -->
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <p class="mb-0">
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved by:
+                        <a href="#" class="text-warning">Kelompok 3 FS Gamelab.id</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
